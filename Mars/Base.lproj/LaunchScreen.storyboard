@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11191" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11156"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +18,49 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeV-de-dD0">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="F9N-xt-7Pj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUX-kn-cyl">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="TEu-az-eeI"/>
+                                    <constraint firstAttribute="height" constant="37" id="Wzv-4p-roh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Austin Childress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Or-Hd-WtP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="zgv-hk-IUl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="yUX-kn-cyl" secondAttribute="bottom" constant="20" symbolic="YES" id="2GR-Q6-lke"/>
+                            <constraint firstItem="EeV-de-dD0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kee-uf-tbb"/>
+                            <constraint firstItem="EeV-de-dD0" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="274" id="MDv-9k-U76"/>
+                            <constraint firstItem="7Or-Hd-WtP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="93" id="Rqy-IZ-LWY"/>
+                            <constraint firstItem="7Or-Hd-WtP" firstAttribute="centerX" secondItem="yUX-kn-cyl" secondAttribute="centerX" id="TXj-qz-hJC"/>
+                            <constraint firstItem="EeV-de-dD0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="do5-MC-Krd"/>
+                            <constraint firstItem="7Or-Hd-WtP" firstAttribute="top" secondItem="EeV-de-dD0" secondAttribute="bottom" constant="8" symbolic="YES" id="ghs-Lq-OXu"/>
+                            <constraint firstItem="EeV-de-dD0" firstAttribute="centerX" secondItem="7Or-Hd-WtP" secondAttribute="centerX" id="qOB-Ri-TiT"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>
