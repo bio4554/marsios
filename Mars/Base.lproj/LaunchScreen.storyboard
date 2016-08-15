@@ -1,66 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11191" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11191" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="TN7-Sa-kRG">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11156"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="XSE-U7-wUO">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="xwp-R1-uEO" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="dwh-eA-FVZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="JpX-YK-uQk"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="Xqt-UL-dZk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeV-de-dD0">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="138" id="F9N-xt-7Pj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUX-kn-cyl">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="141" id="TEu-az-eeI"/>
-                                    <constraint firstAttribute="height" constant="37" id="Wzv-4p-roh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Austin Childress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Or-Hd-WtP">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="zgv-hk-IUl"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="yUX-kn-cyl" secondAttribute="bottom" constant="20" symbolic="YES" id="2GR-Q6-lke"/>
-                            <constraint firstItem="EeV-de-dD0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kee-uf-tbb"/>
-                            <constraint firstItem="EeV-de-dD0" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="274" id="MDv-9k-U76"/>
-                            <constraint firstItem="7Or-Hd-WtP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="93" id="Rqy-IZ-LWY"/>
-                            <constraint firstItem="7Or-Hd-WtP" firstAttribute="centerX" secondItem="yUX-kn-cyl" secondAttribute="centerX" id="TXj-qz-hJC"/>
-                            <constraint firstItem="EeV-de-dD0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="do5-MC-Krd"/>
-                            <constraint firstItem="7Or-Hd-WtP" firstAttribute="top" secondItem="EeV-de-dD0" secondAttribute="bottom" constant="8" symbolic="YES" id="ghs-Lq-OXu"/>
-                            <constraint firstItem="EeV-de-dD0" firstAttribute="centerX" secondItem="7Or-Hd-WtP" secondAttribute="centerX" id="qOB-Ri-TiT"/>
-                        </constraints>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jzR-oY-cbF"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPX-XD-t0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="4024.8000000000002" y="295.50224887556226"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vHX-wF-sdf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TN7-Sa-kRG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ExE-DX-b9B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xwp-R1-uEO" kind="relationship" relationship="rootViewController" id="ftk-p0-IKA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jln-Yw-bI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3085.5999999999999" y="295.50224887556226"/>
         </scene>
     </scenes>
 </document>
